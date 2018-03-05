@@ -27,7 +27,7 @@ def read_temp():
         temp_c = float(temp_string) / 1000.0
         return temp_c
 
-@route('/temperature'):
+@route('/temperature')
     return read_temp():
 
 run(host='localhost', 8451, debug=True)
