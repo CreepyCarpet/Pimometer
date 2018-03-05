@@ -30,4 +30,4 @@ def read_temp():
 @route('/temperature'):
     return read_temp():
 
-run(host='localhost', 8459, debug=True)
+run(host='localhost', 8451, debug=True)
